@@ -29,28 +29,30 @@ img{
     background-color:hsl(244, 38%, 16%);
     display:flex;
     flex-direction: row;
-    /* max-width: 1110px; */
+    height:450px; 
     margin:185px 260px ; /* placement of the panel on the screen */
+    max-width: 1110px;
     border-radius: 10px; 
     border-radius: 10px;
-    margin-bottom: 0px; /*for no space between panel and credit line */
+    margin-bottom: 10px; /*for no space between panel and credit line */
     padding-bottom: 0;
 }
 
 .card{
-    margin: 10px;   
-    padding:5%;
+    margin: 2%;   
+    padding:4%;
     width:80%;
 }
 
 .chead{
     font-weight: 700;
+    font-size: 1.1em;
 }
 
 .ctext{
     font-weight:400;
     color:hsla(0, 0%, 100%, 0.6);
-    font-size:1.2em;
+    font-size:1em;
 }
 
 .stats{
@@ -60,7 +62,7 @@ img{
 
 .statdata{
     font-weight: 700;
-    font-size: 1.4em;
+    font-size: 1.2rem;
 }
 
 .statheading{
@@ -68,6 +70,7 @@ img{
     font-family: Lexend Deca, sans-serif;
     text-transform: uppercase;
     font-weight: 400;
+    font-size: 0.8rem;
     letter-spacing: 1px;
 }
 
