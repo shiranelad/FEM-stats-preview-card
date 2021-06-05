@@ -9,14 +9,7 @@
 /* Remove default margin */
 body,
 h1,
-h2,
-h3,
-h4,
-p,
-figure,
-blockquote,
-dl,
-dd {
+p{
   margin: 0;
 }
 
@@ -44,37 +37,12 @@ a:not([class]) {
 }
 
 /* Make images easier to work with */
-img,
-picture {
+img {
   max-width: 100%;
   display: block;
 }
 
-/* Inherit fonts for inputs and buttons */
-input,
-button,
-textarea,
-select {
-  font: inherit;
-}
-
-/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
-@media (prefers-reduced-motion: reduce) {
-  html:focus-within {
-   scroll-behavior: auto;
-  }
-  
-  *,
-  *::before,
-  *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
-  }
-}
-
-/* Shiran's Code */
+/************* Shiran's Code ************/
 body{
     background-color: hsl(233, 47%, 7%);
     font-family: 'Inter', sans-serif;
@@ -86,33 +54,38 @@ body{
     border-bottom-right-radius: 10px; 
     border-top-right-radius: 10px;
     background:hsl(277, 64%, 61%);
-    opacity:0.75;  
+    /* opacity:0.75;   */
 }
 
 img{
     height:100%;
     width:100%; 
-    opacity:0.6;  
+    opacity:0.8;  
     border-bottom-right-radius: 10px; 
     border-top-right-radius: 10px;
     padding:0;
+    mix-blend-mode: multiply;
 }
 
 .highlight{
     color:hsl(277, 64%, 61%);
 }
 
+.parentcontainer{
+    justify-content: center;
+    display:flex;
+}
 .panel{
     background-color:hsl(244, 38%, 16%);
     display:flex;
     flex-direction: row;
-    height:450px; 
-    margin:185px 260px ; /* placement of the panel on the screen */
-    max-width: 1110px;
+    /* height:450px;  */
+    /* margin:185px 260px ; placement of the panel on the screen */
+    max-width: 1120px;
     border-radius: 10px; 
     border-radius: 10px;
-    margin-bottom: 10px; /*for no space between panel and credit line */
     padding-bottom: 0;
+    position: relative;
 }
 
 .card{
@@ -140,6 +113,13 @@ img{
 .statdata{
     font-weight: 700;
     font-size: 1.2rem;
+    display:block;
+}
+
+.spstat{
+    flex-direction: row;
+    display:flex;
+    justify-content: space-between;
 }
 
 .statheading{
@@ -151,15 +131,20 @@ img{
     letter-spacing: 1px;
 }
 
-ul{
+li{
     list-style: none;
-    display: inline-block;
+    flex-direction: column;
 }
+
+ul{
+    list-style:none;
+    flex-direction: row;
+}
+
 
 ul:first-child{
     padding:0;
 }
-
 
 
 /* bottom credit line */
