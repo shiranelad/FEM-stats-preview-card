@@ -50,7 +50,7 @@ body{
 }
 
 .cardimg{
-    width: 50%;
+    width: 51%;
     border-bottom-right-radius: 10px; 
     border-top-right-radius: 10px;
     background:hsl(277, 64%, 61%);
@@ -64,6 +64,7 @@ img{
     border-top-right-radius: 10px;
     padding:0;
     mix-blend-mode: multiply;
+    display:block;
 }
 
 .highlight{
@@ -71,24 +72,26 @@ img{
 }
 
 .parentcontainer{
-    display:grid;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
     place-items: center;
     min-height: 100vh;
 }
 .panel{
-    background-color:hsl(244, 38%, 16%);
     display:flex;
     flex-direction: row;
     max-width: 1120px;
-    border-top-left-radius: 10px; 
-    border-bottom-left-radius: 10px;
-    padding-bottom: 0;
+    background-color:hsl(244, 38%, 16%);
 }
 
 .card{
     margin: 2%;   
     padding:4%;
     width:50%;
+    border-top-left-radius: 10px; 
+    border-bottom-left-radius: 10px;
+    padding-bottom: 0;
 }
 
 .chead{
