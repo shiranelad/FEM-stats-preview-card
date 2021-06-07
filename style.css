@@ -163,6 +163,24 @@ ul:first-child{
 
 /* when in Mobile */
 @media  screen and (max-width:901px) {
+    .chead{
+        font-size: 1em;
+    }
+    
+    .ctext{
+        font-size:0.9em;
+    }    
+    
+    .statdata{
+        font-size: 1.1rem;
+    }
+    
+    .statheading{
+        font-size: 0.7rem;
+    }
+}
+
+/* 
     h1{
         font-size:1.5em;
     }
@@ -175,93 +193,77 @@ ul:first-child{
     }
     .statheading{
         font-size:0.8rem;
-    }
-
-}
+    } */
 
 @media  screen and (max-width:791px) {
-    h1{
-        font-size:1.4em;
+    .chead{
+        font-size: 0.8em;
     }
-
-    p{
-        font-size:0.9em;
-    }
+    
+    .ctext{
+        font-size:0.8em;
+    }    
+    
     .statdata{
-        font-size:1em;
+        font-size: 1.1rem;
     }
+    
     .statheading{
-        font-size:0.7rem;
+        font-size: 0.7rem;
     }
-
 }
-
 
 @media  screen and (max-width:701px) {
-    h1{
-        font-size:1.2em;
+    .chead{
+        font-size: 0.7em;
     }
-
-    p{
-        font-size:0.8em;
-    }
+    
+    .ctext{
+        font-size:0.7em;
+    }    
+    
     .statdata{
-        font-size:1.1rem;
+        font-size: 1rem;
     }
+    
     .statheading{
-        font-size:0.6rem;
+        font-size: 0.6rem;
     }
-
 }
 @media  screen and (max-width:570px) {
-    h1{
-        font-size:1.1em;
+    .chead{
+        font-size: 0.7em;
     }
-
-    p{
+    
+    .ctext{
         font-size:0.7em;
-    }
+    }    
+    
     .statdata{
-        font-size:1rem;
-    }
-    .statheading{
-        font-size:0.5rem;
-    }
-
-}
-
-@media  screen and (max-width:430px) {
-    h1{
-        font-size:1em;
-    }
-
-    p{
-        font-size:0.6em;
-    }
-    .statdata{
-        font-size:0.9rem;
-    }
-    .statheading{
-        font-size:0.5rem;
+        font-size: 0.9rem;
     }
     
+    .statheading{
+        font-size: 0.5rem;
+    }
 }
 
-@media  screen and (max-width:410px) {
-    h1{
-        font-size:0.9em;
-    }
-
-    p{
-        font-size:0.5em;
-    }
-    .statdata{
-        font-size:0.8rem;
-    }
-    .statheading{
-        font-size:0.4rem;
+@media  screen and (max-width:415px) {
+    .chead{
+        font-size: 0.6em;
     }
     
+    .ctext{
+        font-size:0.7em;
+    }    
+    
+    .statdata{
+        font-size: 0.9rem;
+    }
+    
+    .statheading{
+        font-size: 0.4rem;
+    }
 }
 @media  screen and (max-width:376px) {
     .panel{
@@ -295,6 +297,10 @@ ul:first-child{
         text-align: center;
     }
 
+    .chead{
+        font-size:0.8rem;
+    }
+
     .ctext{
         font-weight:400;
         color:hsla(0, 0%, 100%, 0.6);
@@ -311,9 +317,12 @@ ul:first-child{
     .statdata{
         text-align: center;
         padding:10px;
+        font-size:1.5rem;
     }
 
     .statheading{
         text-align: center;
+        font-size: 1rem;
     }   
+   
 }
