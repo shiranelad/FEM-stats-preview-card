@@ -162,7 +162,108 @@ ul:first-child{
 }
 
 /* when in Mobile */
-@media  screen and (max-width:375px) {
+@media  screen and (max-width:901px) {
+    h1{
+        font-size:1.5em;
+    }
+
+    p{
+        font-size:1em;
+    }
+    .statdata{
+        font-size:1.2rem;
+    }
+    .statheading{
+        font-size:0.8rem;
+    }
+
+}
+
+@media  screen and (max-width:791px) {
+    h1{
+        font-size:1.4em;
+    }
+
+    p{
+        font-size:0.9em;
+    }
+    .statdata{
+        font-size:1em;
+    }
+    .statheading{
+        font-size:0.7rem;
+    }
+
+}
+
+
+@media  screen and (max-width:701px) {
+    h1{
+        font-size:1.2em;
+    }
+
+    p{
+        font-size:0.8em;
+    }
+    .statdata{
+        font-size:1.1rem;
+    }
+    .statheading{
+        font-size:0.6rem;
+    }
+
+}
+@media  screen and (max-width:570px) {
+    h1{
+        font-size:1.1em;
+    }
+
+    p{
+        font-size:0.7em;
+    }
+    .statdata{
+        font-size:1rem;
+    }
+    .statheading{
+        font-size:0.5rem;
+    }
+
+}
+
+@media  screen and (max-width:430px) {
+    h1{
+        font-size:1em;
+    }
+
+    p{
+        font-size:0.6em;
+    }
+    .statdata{
+        font-size:0.9rem;
+    }
+    .statheading{
+        font-size:0.5rem;
+    }
+    
+}
+
+@media  screen and (max-width:410px) {
+    h1{
+        font-size:0.9em;
+    }
+
+    p{
+        font-size:0.5em;
+    }
+    .statdata{
+        font-size:0.8rem;
+    }
+    .statheading{
+        font-size:0.4rem;
+    }
+    
+}
+@media  screen and (max-width:376px) {
     .panel{
         flex-direction: column-reverse;
         border-bottom-left-radius: 10px; 
@@ -214,10 +315,5 @@ ul:first-child{
 
     .statheading{
         text-align: center;
-    }
-
-    .attribution{
-        /* bottom:220px; */
-    }
-    
+    }   
 }
